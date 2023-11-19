@@ -19,5 +19,8 @@
 
 !Makefile
 
+!Dockerfile
+!docker-compose.yml
+
 # ...even if they are in subdirectories
 !*/

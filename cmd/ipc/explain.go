@@ -9,7 +9,7 @@ import (
 
 var explainCmd = &cobra.Command{
     Use:   "explain",
-    Short: "Short description.",
+    Short: "Generate a human-readable explanation of the network represented by the CIDR.",
     Args:  cobra.ExactArgs(1),
     Run:   func(cmd *cobra.Command, args []string) {
         ipc.ExplainNetwork(args[0])
